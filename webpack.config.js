@@ -1,4 +1,4 @@
-const { InjectManifest } = require('workbox-webpack-plugin')
+const { InjectManifest } = require("workbox-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
 const webpack = require('webpack')
@@ -58,8 +58,8 @@ module.exports = {
       process: 'process/browser',
     }),
     new InjectManifest({
-      swSrc: './service-worker.js',
-    }),
+      swSrc: "./service-worker.js",
+    })
   ],
   devtool: prod ? false : 'source-map',
   devServer: {
