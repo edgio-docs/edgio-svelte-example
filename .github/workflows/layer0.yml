@@ -24,7 +24,7 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      - name: Svelte Express Example - Deploy to Layer0
+      - name: Svelte Example - Deploy to Layer0
         run: |
           npm install
           npm run layer0:deploy -- --token=$deploy_token ${{env.BRANCH_NAME != 'main' && '--environment=staging' || ''}}
