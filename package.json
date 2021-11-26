@@ -2,7 +2,7 @@
   "scripts": {
     "layer0:init": "layer0 init",
     "layer0:dev": "layer0 dev",
-    "layer0:build": "layer0 build",
+    "layer0:build": "npm run build:css && npm run build && layer0 build",
     "layer0:deploy": "npm run build:css && npm run build && layer0 deploy",
     "layer0:deploy-docs": "npm run build:css && npm run build && layer0 deploy -t=layer0-docs",
     "layer0:prod": "layer0 run --production",
