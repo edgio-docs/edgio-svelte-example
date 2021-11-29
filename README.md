@@ -8,7 +8,7 @@ https://layer0-docs-svelte-default.layer0.link/
 
 ## Try It Now
 
-[![Deploy with Layer0](https://docs.layer0.co/button.svg)](https://app.layer0.co/deploy?repo=https://github.com/layer0-docs/svelte)
+[![Deploy with Layer0](https://docs.layer0.co/button.svg)](https://app.layer0.co/deploy?repo=https://github.com/layer0-docs/layer0-svelte-example)
 
 ## Getting Started
 
