@@ -4,7 +4,7 @@ This example is built with Svelte to demonstrate the use and configuration of La
 
 ## Demo
 
-https://layer0-docs-svelte-default.layer0.link/
+https://layer0-docs-layer0-svelte-example-default.layer0-limelight.link
 
 ## Try It Now
 
@@ -14,7 +14,7 @@ https://layer0-docs-svelte-default.layer0.link/
 
 ### Clone This Repo
 
-Use `git clone https://github.com/layer0-docs/svelte.git` to get the files within this repository onto your local machine.
+Use `git clone https://github.com/layer0-docs/layer0-svelte-example.git` to get the files within this repository onto your local machine.
 
 ### Install dependencies
 
