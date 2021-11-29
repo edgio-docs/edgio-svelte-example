@@ -11,7 +11,7 @@
     "watch:css": "postcss styles --base styles --dir src/styles -w",
     "build:css": "postcss styles --base styles --dir src/styles --env production"
   },
-  "name": "svelte",
+  "name": "layer0-svelte-example",
   "version": "1.0.0",
   "devDependencies": {
     "@layer0/cli": "^3.16.10",
