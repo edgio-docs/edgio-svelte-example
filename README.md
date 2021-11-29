@@ -4,7 +4,7 @@ This example is built with Svelte to demonstrate the use and configuration of La
 
 ## Demo
 
-https://layer0-docs-svelte-default.layer0.link/
+https://layer0-docs-layer0-svelte-example-default.layer0.link
 
 ## Try It Now
 
