@@ -1,15 +1,10 @@
 {
   "scripts": {
-    "layer0:init": "layer0 init",
-    "layer0:dev": "layer0 dev",
-    "layer0:build": "npm run build:css && npm run build && layer0 build",
-    "layer0:deploy": "npm run build:css && npm run build && layer0 deploy",
-    "layer0:deploy-docs": "npm run build:css && npm run build && layer0 deploy -t=layer0-docs",
-    "layer0:prod": "layer0 run --production",
-    "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack serve --content-base public",
+    "build": "npm run build:css && cross-env NODE_ENV=production webpack",
     "watch:css": "postcss styles --base styles --dir src/styles -w",
-    "build:css": "postcss styles --base styles --dir src/styles --env production"
+    "build:css": "postcss styles --base styles --dir src/styles --env production",
+    "deploy": "layer0 deploy"
   },
   "name": "layer0-svelte-example",
   "version": "1.0.0",
