@@ -27,6 +27,6 @@ jobs:
       - name: Svelte Example - Deploy to Layer0
         run: |
           npm install
-          npm run layer0:deploy -- --token=$deploy_token --environment=default
+          npm run build && npm run deploy -- --token=$deploy_token --environment=default
         env:
           deploy_token: ${{secrets.LAYER0_DEPLOY_TOKEN}}
