@@ -4,6 +4,8 @@
     "build": "npm run build:css && cross-env NODE_ENV=production webpack",
     "watch:css": "postcss styles --base styles --dir src/styles -w",
     "build:css": "postcss styles --base styles --dir src/styles --env production",
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
     "deploy": "layer0 deploy"
   },
   "name": "layer0-svelte-example",
