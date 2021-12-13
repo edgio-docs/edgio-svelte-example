@@ -6,7 +6,7 @@
     "build:css": "postcss styles --base styles --dir src/styles --env production",
     "layer0:dev": "layer0 dev",
     "layer0:build": "layer0 build",
-    "deploy": "layer0 deploy"
+    "layer0:deploy": "layer0 deploy"
   },
   "name": "layer0-svelte-example",
   "version": "1.0.0",
