@@ -4,17 +4,17 @@
     "build": "npm run build:css && cross-env NODE_ENV=production webpack",
     "watch:css": "postcss styles --base styles --dir src/styles -w",
     "build:css": "postcss styles --base styles --dir src/styles --env production",
-    "layer0:dev": "layer0 dev",
-    "layer0:build": "layer0 build",
-    "layer0:deploy": "layer0 deploy"
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy"
   },
-  "name": "layer0-svelte-example",
+  "name": "edgio-svelte-example",
   "version": "1.0.0",
   "devDependencies": {
-    "@layer0/cli": "^4.13.9",
-    "@layer0/core": "^4.13.9",
-    "@layer0/devtools": "^4.13.9",
-    "@layer0/prefetch": "^4.13.9",
+    "@edgio/cli": "^5.0.4",
+    "@edgio/core": "^5.0.4",
+    "@edgio/devtools": "^5.0.4",
+    "@edgio/prefetch": "^5.0.4",
     "autoprefixer": "^10.4.0",
     "cross-env": "^7.0.3",
     "css-loader": "^5.0.1",
@@ -29,7 +29,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@layer0/svelte": "^4.13.9",
+    "@edgio/svelte": "^5.0.4",
     "process": "^0.11.10",
     "register-service-worker": "^1.7.2",
     "svelte-navigator": "^3.1.5",

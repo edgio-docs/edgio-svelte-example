@@ -1,6 +1,6 @@
 import { fetch } from 'whatwg-fetch'
 
-const origin = 'https://layer0-docs-layer0-examples-api-default.layer0.link'
+const origin = 'https://edgio-docs-edgio-examples-api-default.edgio.link'
 let apiUrl
 
 if (typeof window !== 'undefined') {
